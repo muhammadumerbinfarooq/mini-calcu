@@ -28,15 +28,15 @@ class CybersecurityCalculator:
         return self.cipher_suite.encrypt(input_data.encode())
 
     def decrypt_output(self, output_data):
-        """
-        Decrypts the calculation output using the Fernet cipher.
-        """
+        
+        #Decrypts the calculation output using the Fernet cipher.
+        
         return self.cipher_suite.decrypt(output_data).decode()
 
     def perform_addition(self):
-        """
-        Performs secure addition operation with error handling.
-        """
+        
+        #Performs secure addition operation with error handling.
+        
         try:
             a = self.encrypt_input(input("Enter the first number: "))
             b = self.encrypt_input(input("Enter the second number: "))
@@ -48,9 +48,9 @@ class CybersecurityCalculator:
             print(f"Unexpected error occurred: {e}")
 
     def perform_subtraction(self):
-        """
-        Performs secure subtraction operation with error handling.
-        """
+       
+        #Performs secure subtraction operation with error handling.
+        
         try:
             a = self.encrypt_input(input("Enter the first number: "))
             b = self.encrypt_input(input("Enter the second number: "))
@@ -62,9 +62,9 @@ class CybersecurityCalculator:
             print(f"Unexpected error occurred: {e}")
 
     def perform_multiplication(self):
-        """
-        Performs secure multiplication operation with error handling.
-        """
+        
+        #Performs secure multiplication operation with error handling.
+       
         try:
             a = self.encrypt_input(input("Enter the first number: "))
             b = self.encrypt_input(input("Enter the second number: "))
@@ -76,9 +76,9 @@ class CybersecurityCalculator:
             print(f"Unexpected error occurred: {e}")
 
     def perform_division(self):
-        """
-        Performs secure division operation with error handling.
-        """
+        
+      #  Performs secure division operation with error handling.
+        
         try:
             a = self.encrypt_input(input("Enter the dividend: "))
             b = self.encrypt_input(input("Enter the divisor: "))
@@ -92,9 +92,9 @@ class CybersecurityCalculator:
             print(f"Unexpected error occurred: {e}")
 
     def run(self):
-        """
-        Main entry point of the CybersecurityCalculator application.
-        """
+        
+       # Main entry point of the CybersecurityCalculator application.
+        
         print("Welcome to the Cybersecurity Calculator!")
         print("Please select an operation:")
         print("1. Addition")
