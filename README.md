@@ -32,7 +32,6 @@
 
 <p>1. Clone the repository using <code>git clone</code>.</p>
 <p>2. Navigate to the project directory.</p>
-<p>3. Run the application using <code>python (link unavailable)</code>.</p>
 
 <h2 id="usage">Usage</h2>
 
