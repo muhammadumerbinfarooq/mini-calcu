@@ -28,11 +28,6 @@
 <li>Python 3.x installed on your system</li>
 </ul>
 
-<h2 id="installation">Installation</h2>
-
-<p>1. Clone the repository using <code>git clone</code>.</p>
-<p>2. Navigate to the project directory.</p>
-
 <h2 id="usage">Usage</h2>
 
 <p>1. Run the application.</p>
